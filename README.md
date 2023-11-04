@@ -7,8 +7,13 @@ Write number 1, 2, 3 and so on in the matrix, as far as possible
 * You may move over two (2) squares horizontally or vertically or over one (1) square diagonally, see example below
 * Follow the rules and try to fill in all numbers
 <img src="number_sequence/assets/board.jpg" width="20%"/>
+
+The solver supports any size of matrix, with the caveat that solutions might not exist for a given size (or take very long time to find).
+Typically all solutions to a 5x5 matrix are computed instantaneously, while all solutions for a 6x6 matrix might take in the order of 15 minutes depending on hardware.
+
 Sample output:
 
+    $ python3 ./number_sequence_solver.py 6 6
     rate:          3.02e+06 moves/s   
     solutions so far: 57732
     ^C
