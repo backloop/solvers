@@ -9,7 +9,7 @@ Write number 1, 2, 3 and so on in the matrix, as far as possible
 <img src="number_sequence/assets/board.jpg" width="20%"/>
 
 The solver supports any size of matrix, with the caveat that solutions might not exist for a given size (or take very long time to find).
-Typically all solutions to a 5x5 matrix are computed instantaneously, while all solutions for a 6x6 matrix might take in the order of 15 minutes depending on hardware.
+Typically all ~12K solutions to a 5x5 matrix are computed instantaneously, while all +2M solutions for a 6x6 matrix might take in the order of 30 minutes depending on hardware.
 
 Sample output:
 
