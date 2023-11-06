@@ -2,7 +2,9 @@
 Solvers to random problems
 
 ## Number sequence
-Write number 1, 2, 3 and so on in the matrix, as far as possible
+Math problem from `Mera Favorit matematik 3A (ISBN 78-91-44-12427-8)`. Written as en exercise in showing how math and programming frees the mind to ask further questions. How hard is it typically to find a solution? How many solutions are there? How difficult are different sized boards? Are there solutions for all starting points?
+
+Write number 1, 2, 3 and so on in the matrix, as far as possible.
 * You choose which element to start in
 * You may move over two (2) squares horizontally or vertically or over one (1) square diagonally, see example below
 * Follow the rules and try to fill in all numbers
